@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+#cardDetails {
+    display: flex;
+    flex-direction: column;
+}
+div.secondaryContainer:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+#cardSecurityDetails{
+    display: flex;
+    flex-grow: 3;
+}
+div.secondaryContainer:nth-child(2) > img:nth-child(1){
+    margin-right: 6rem;
+}
