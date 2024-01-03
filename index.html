@@ -17,21 +17,26 @@
 <body>
   <main>
 <div id="mainContainer">
-  <div class="secondaryContainer">
+  <div id="secondaryContainer">
     <div id="cardDetails">
     <form action="">
-      <p>Cardholder Name</p>
+      <label>Cardholder Name</label>
       <input type="text" placeholder="e.g. Jane Appleseed">
-      <p>Card Numebr</p>
+      <label>Card Numebr</label>
       <input type="text" placeholder="e.g. 1234 5678 9123 0000">
  </form>
  <div id="cardSecurityDetails">
   <form action="">
-    <p>Exp.Date (MM/YY)</p>
-    <input type="text" placeholder="MM">
-    <input type="text" placeholder="YY">
-    <p>CVC</p>
-    <input type="text" placeholder="e.g. 123">
+    <div id="cardDates">
+      <label>Exp.Date (MM/YY)</label>
+      <input type="text" placeholder="MM">
+      <input type="text" placeholder="YY">
+    </div>
+    <div id="cvc">
+      <label>CVC</label>
+      <input type="text" placeholder="e.g. 123">
+    </div>
+
   </form>
  </div>
 </div>
