@@ -2,6 +2,13 @@
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGreyViolet: hsl(270, 3%, 87%);
+    --darkGreyViolet: hsl(279, 6%, 55%);
+    --veryDarkGreyViolet: hsl(278, 68%, 11%);
+}
 body {
     margin: 0;
     background-image: url(/images/bg-main-desktop.png);
@@ -71,6 +78,8 @@ button {
     border-radius: 0.5rem;
     border: hidden;
     cursor: pointer;
+    background-color: var(--veryDarkGreyViolet);
+    color: var(--white);
 }
 input, label {
     margin-bottom: 1rem;
@@ -104,6 +113,7 @@ input, label {
 }
 .cardDetailsDisplay {
     padding: 2rem 2rem 0 2rem;
+    color: var(--white);
 }
 
 #cardDetailsBottom p {
