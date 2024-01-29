@@ -55,7 +55,7 @@ div.secondaryContainer:nth-child(2) {
     width: 40%;
 }
 #cardDates input {
-    width: 4rem;
+    width: 4.4rem;
     border-radius: 0.5rem;
     border: 1px solid silver;
     padding: 0.9rem;
@@ -63,10 +63,7 @@ div.secondaryContainer:nth-child(2) {
 #cardDates > input:nth-child(3){
     margin-left: 0.5rem;
 }
-#cvc {
-    margin-left: 1rem;
-    width: 60%;
-}
+
 
 div.secondaryContainer:nth-child(2) > img:nth-child(1){
     margin-right: 6rem;
@@ -92,8 +89,8 @@ input, label {
 }
 
 #thirdContainer .frontCard {
-    width: 30rem;
-    height: 16rem;
+    width: 32rem;
+    height: 18rem;
     background-image: url(/images/bg-card-front.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -121,6 +118,9 @@ input, label {
 }
 .longNumber {
     margin-bottom: 0;
+    font-size: 1.8rem;
+    margin-top: 0;
+
 }
 
 #cardDetailsBottom {
@@ -130,8 +130,14 @@ input, label {
 .cvc {
     margin: 7.3rem 0rem 5rem 25rem;
 }
+#cvcCode {
+    margin-left: auto;
+}
 
 .cardLogo {
     margin-bottom: 3rem;
+}
+.expiryDate {
+    margin-left: auto;
 }
 
