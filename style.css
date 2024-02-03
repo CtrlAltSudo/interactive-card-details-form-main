@@ -25,7 +25,7 @@ main {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 7rem;
+    gap: 9rem;
 }
 #secondaryContainer {
     max-width: 24rem;
@@ -39,6 +39,7 @@ main {
     padding: 0.9rem;
     border: 1px solid silver;
     border-radius: 0.5rem;
+    margin-top: 0.4rem;
 }
 div.secondaryContainer:nth-child(2) {
     display: flex;
@@ -63,7 +64,7 @@ div.secondaryContainer:nth-child(2) {
     border-radius: 0.5rem;
     border: 1px solid silver;
     padding: 0.9rem;
-    margin: 0;
+    margin-top: 0.4rem;
 }
 #cardDates > input:nth-child(3){
     margin-left: 0.5rem;
@@ -76,22 +77,32 @@ div.secondaryContainer:nth-child(2) > img:nth-child(1){
 
 button {
     width: 100%;
-    padding: 0.9rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     border: hidden;
     cursor: pointer;
     background-color: var(--veryDarkGreyViolet);
     color: var(--white);
     margin-top: 1rem;
+    font-size: 1rem;
 }
 input, label {
     margin-bottom: 1rem;
 }
 
+input {
+    margin-bottom: 1.5rem;
+}
+label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
 #thirdContainer {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
 }
 
 #thirdContainer .frontCard {
@@ -105,7 +116,7 @@ input, label {
 
 }
 #thirdContainer .rearCard {
-    margin: 3rem 0 0 5rem;
+    margin: 2.5rem 0 0 5rem;
     width: 30rem;
     height: 16rem;
     background-image: url(/images/bg-card-back.png);
@@ -145,8 +156,9 @@ input, label {
     margin: 0.5rem 0 0.2rem 0;
 }
 #cvcInput {
-    margin-bottom: 0;
+    margin-top: 0.4rem;
 }
+
 
 .cardLogo {
     margin-bottom: 2.8rem;
