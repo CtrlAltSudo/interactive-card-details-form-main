@@ -14,7 +14,11 @@ const cvcInput = document.querySelector("#cvcInput");
 
 cvcInput.addEventListener("input", e => {
     e.preventDefault();
-    cvc.innerText = cvcInput.value;
+    if(cvcInput.value === " " || cvcInput.value === undefined || cvcInput.value.toString().length > 3) {
+        console.log("error, empty or too long!")
+    } else {
+        cvc.innerText = cvcInput.value;
+    }
 });
 
 monthInput.addEventListener("input", e => {

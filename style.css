@@ -47,7 +47,7 @@ div.secondaryContainer:nth-child(2) {
 }
 #cardSecurityDetails form{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 #cardSecurityDetails label {
     display: block;
@@ -76,6 +76,7 @@ div.secondaryContainer:nth-child(2) > img:nth-child(1){
 }
 
 button {
+    display: block;
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -149,8 +150,15 @@ label {
     font-size: 1rem;
     color: var(--white);
 }
+
 #cvcCode {
     margin-left: auto;
+}
+#cvcInput:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 1px solid red;
+    border-radius: 5px;
 }
 #cvcCode label {
     margin: 0.5rem 0 0.2rem 0;
