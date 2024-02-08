@@ -23,20 +23,18 @@
     <div id="cardDetails">
     <form action="">
       <label>Cardholder Name</label>
-      <input type="text" placeholder="e.g. Jane Appleseed" id="nameCardInput">
+      <input type="text" placeholder="e.g. Jane Appleseed" id="nameCardInput" pattern="[A-Za-z ]*" title="Please enter the name on the front of the card">
       <label>Card Numebr</label>
-      <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="longNumInput" min="16" max="16">
- </form>
+      <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="longNumInput" pattern="[0-9]{16}" title="Please enter the long 16 digit number on the front of the card">
  <div id="cardSecurityDetails">
-  <form action="">
     <div id="cardDates">
       <label>Exp.Date (MM/YY)</label>
-      <input type="text" placeholder="MM" id="monthInput">
-      <input type="text" placeholder="YY" id="yearInput">
+      <input type="text" placeholder="MM" id="monthInput" pattern="[0-9]{2}" title="Please enter exactly 2 digits">
+      <input type="text" placeholder="YY" id="yearInput" pattern="[0-9]{2}" title="Please enter exactly 2 digits">
     </div>
     <div id="cvcCode">
       <label>CVC</label>
-      <input type="text" placeholder="e.g. 123" id="cvcInput" pattern="[0-9]{3}" required title="Please enter exactly 3 digits">
+      <input type="text" placeholder="e.g. 123" id="cvcInput" pattern="[0-9]{3}"  title="Please enter exactly 3 digits">
     </div>
     <button>Confirm</button>
   </form>
