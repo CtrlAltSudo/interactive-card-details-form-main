@@ -145,6 +145,7 @@ label {
     margin-bottom: 0;
     font-size: 1.7rem;
     margin-top: 1rem;
+    letter-spacing: 3px;
 
 }
 
@@ -185,9 +186,8 @@ Input:invalid:not(:focus){
     letter-spacing: 2px;
     font-size: 0.9rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1153px) {
     #mainContainer {
-        margin-top: 20rem;
         flex-direction: column-reverse;
     }
     body {
@@ -198,5 +198,51 @@ Input:invalid:not(:focus){
         width: 10rem;
         height: 10rem;
     }
+    #thirdContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        padding-top: 1.8rem;
+        position: relative;
+    }
+    #thirdContainer .rearCard{
+        min-width: 80%;
+        margin: 0 0 2rem 2.2rem;
+    }
+    #thirdContainer .frontCard {
+        min-width: 80%;
+        margin: 0;
+        position: absolute;
+        top: 7.5rem;
+        right: 4.5rem;
+    }
+    .cardDetailsDisplay {
+        padding: 0;
+    }
+    .nameCard {
+        font-size: 0.7rem;
+        font-size: 1rem;
+    }
+    .longNumber {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .expiryDate  {
 
+        margin: 0;
+    }
+    .cardLogo {
+        margin: 1rem 0 0 1rem;
+        width: 3.5rem;
+    }
+    .cvc {
+        margin: 0;
+    }
 } 
+
+@media only screen and (max-width: 1240px) {
+    body {
+        background-size: contain;
+    }
+}
