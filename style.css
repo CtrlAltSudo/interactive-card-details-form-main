@@ -186,7 +186,7 @@ Input:invalid:not(:focus){
     letter-spacing: 2px;
     font-size: 0.9rem;
 }
-@media only screen and (max-width: 1153px) {
+@media only screen and (max-width: 600px) {
     #mainContainer {
         flex-direction: column-reverse;
     }
@@ -206,11 +206,11 @@ Input:invalid:not(:focus){
         position: relative;
     }
     #thirdContainer .rearCard{
-        min-width: 80%;
+        min-width: 75%;
         margin: 0 0 2rem 2.2rem;
     }
     #thirdContainer .frontCard {
-        min-width: 80%;
+        min-width: 75%;
         margin: 0;
         position: absolute;
         top: 7.5rem;
@@ -236,13 +236,21 @@ Input:invalid:not(:focus){
         margin: 1rem 0 0 1rem;
         width: 3.5rem;
     }
-    .cvc {
-        margin: 0;
+    #cvcCode {
+        margin-left: 0;
+        width: 11rem;
+    }
+
+    #cardDetails {
+        padding: 1.5rem;
+    }
+    #cardDates {
+        width: 10rem;
     }
 } 
-
+/* 
 @media only screen and (max-width: 1240px) {
     body {
         background-size: contain;
     }
-}
+} */
