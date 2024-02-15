@@ -189,6 +189,10 @@ Input:invalid:not(:focus){
 @media only screen and (max-width: 600px) {
     #mainContainer {
         flex-direction: column-reverse;
+        margin-top: -10.5rem;
+    }
+    #secondaryContainer {
+        margin-top: -4rem;
     }
     body {
         background-image: url(/images/bg-main-mobile.png);
@@ -238,11 +242,11 @@ Input:invalid:not(:focus){
     }
     #cvcCode {
         margin-left: 0;
-        width: 11rem;
+        width: 55.6%;
     }
 
     #cardDetails {
-        padding: 1.5rem;
+        padding: 3%;
     }
     #cardDates {
         width: 10rem;
