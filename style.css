@@ -228,13 +228,20 @@ Input:invalid:not(:focus){
         font-size: 1rem;
     }
     .longNumber {
-        margin-top: 3rem;
+        margin-top: 2rem;
         text-align: center;
         font-size: 1.1rem;
     }
     .expiryDate  {
-
         margin: 0;
+    }
+    #cardDetailsBottom p {
+        margin: 1.2rem 0 0 0;
+        font-size: 0.6rem;
+        font-weight: 100;
+    }
+    #cardDetailsBottom {
+        padding: 0 1.1rem 0 1.1rem;
     }
     .cardLogo {
         margin: 1rem 0 0 1rem;
