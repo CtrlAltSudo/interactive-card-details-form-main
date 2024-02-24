@@ -187,6 +187,9 @@ Input:invalid:not(:focus){
     font-size: 0.9rem;
 }
 @media only screen and (max-width: 375px) {
+    main {
+        min-height: 0;
+    }
     #mainContainer {
         flex-direction: column-reverse;
     }
@@ -248,7 +251,7 @@ Input:invalid:not(:focus){
     }
     #cvcCode {
         margin-left: 0;
-        width: 55.6%;
+        width: 12rem;
     }
 
     #cardDetails {
@@ -257,6 +260,15 @@ Input:invalid:not(:focus){
     #cardDates {
         width: 10rem;
     }
+    .cvc {
+        margin: 4.49rem 1.2rem 0 auto;
+        width: 2rem;
+        font-size: 0.7rem;
+    }
+    .longNumber {
+        font-size: 1rem;
+    }
+
 } 
 /* 
 @media only screen and (max-width: 1240px) {
