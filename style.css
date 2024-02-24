@@ -48,7 +48,6 @@ div.secondaryContainer:nth-child(2) {
 }
 #cardSecurityDetails{
     display: flex;
-    flex-wrap: wrap;
 }
 #cardSecurityDetails label {
     display: block;
