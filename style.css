@@ -166,6 +166,10 @@ Input:invalid:not(:focus){
     outline: 1px solid red;
     border-radius: 5px;
 }
+.longNumErr {
+    visibility: hidden;
+    color: red;
+}
 
 #cvcCode label {
     margin: 0.5rem 0 0.2rem 0;
